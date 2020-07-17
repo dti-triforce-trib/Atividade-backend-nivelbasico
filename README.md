@@ -4,7 +4,7 @@ Olá ficamos felizes com sua participação em nosso processo seletivo e desde j
 
 ### Contexto
 Você será responsável por gerenciar as transações entre usuários de um banco. Cada usuário possui um código único (vide dados.txt).
-Sua implementação deve ler o arquivo dados.txt localizado no diretorio base deste diretorio. Cada dado do arquivo é separado por um conjunto de caracteres especial "-%p". Neste arquivo temos uma chave única UUID que representa o código único do usuário (1º dado), o saldo em conta do usuário (2º dado), o nome do usuário (3º dado), a data da transação (4º dado) no formato yyyy-MM-DD, o valor a ser transferido (5º dado) e o código único do usuário de destino (6º dado). Cada linha do arquivo representa uma transação.
+Sua implementação deve ler o arquivo dados.txt localizado no diretorio base deste repositório. Cada dado do arquivo é separado por um conjunto de caracteres especial "-%p". Neste arquivo temos uma chave única UUID que representa o código único do usuário (1º dado), o saldo em conta do usuário (2º dado), o nome do usuário (3º dado), a data da transação (4º dado) no formato yyyy-MM-DD, o valor a ser transferido (5º dado) e o código único do usuário de destino (6º dado). Cada linha do arquivo representa uma transação.
 Você deve implementar um programa que lê o arquivo, processa cada transação linha por linha e retorna no final uma mensagem na tela exibindo cada transação realizada e logo após o saldo final de cada usuário.
 
 ### Exemplo:
