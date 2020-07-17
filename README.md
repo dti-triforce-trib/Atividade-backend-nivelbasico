@@ -13,7 +13,7 @@ Suponha o arquivo com as seguintes linhas:
         0e3a864c-c867-11ea-87d0-0242ac130003-%p1500.52-%pMaria de Souza-%p2020-01-01-%p100.00-%p0e3a96be-c867-11ea-87d0-0242ac130003
         0e3a96be-c867-11ea-87d0-0242ac130003-%p1000.10-%pJuca Marcos-%p2020-05-03-%p50.00-%p0e3a864c-c867-11ea-87d0-0242ac130003
 
-O resultado esperado seria um resultado devolvido do tipo:
+O resultado esperado seria do tipo:
 
         Maria de Souza transferiu R$ 100.00 para Juca Marcos no dia 01/01/2020
         Juca Marcos transferiu R$ 50.00 para Maria de Souza no dia 03/05/2020
@@ -30,7 +30,7 @@ Supondo que o saldo de Juca Marcos fosse de R$ 40.00 e a transferencia de Maria 
         Juca Marcos - R$ 45.00
         
 ### Regras
-  - Você deve conter um arquivo README com as instruções para executar sua aplicação.
+  - Seu repositório deve conter um arquivo README com as instruções para executar sua aplicação.
   - Sua aplicação deve seguir os conceitos de Orientação a Objetos
   - O uso do git sera considerado na avaliação.
   - Poderá utilizar qualquer linguagem que aceite Orientação a Objetos.
